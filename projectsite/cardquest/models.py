@@ -68,4 +68,4 @@ class Collection(BaseModel):
     trainer = models.ForeignKey(
         Trainer, blank=True, null=True, on_delete=models.CASCADE
     )
-    collection_date = models.DateField()s
+    collection_date = models.DateField()
